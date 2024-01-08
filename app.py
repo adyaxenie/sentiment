@@ -7,7 +7,12 @@ app.config["DEBUG"] = True
 
 @app.route('/')
 def home():
-    return 'Hello, World!'
+    return 'Live Stock Data'
+
+@app.route('/privacy')
+def privacy():
+    return 'Privacy Policy: We do not collect any information.'
+
 
 @app.route('/api/data')
 def data():
