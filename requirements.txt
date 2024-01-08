@@ -38,3 +38,4 @@ stack-data==0.6.2
 textblob==0.17.1
 wheel==0.41.2
 waitress==2.0.0
+gunicorn==21.2.0
